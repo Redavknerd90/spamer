@@ -1,22 +1,33 @@
+import os,sys,time
+def kata(s):
+    for c in s + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(1./20)# The Speed Of The Text
+kata('''Warning!, This Is For Education Purpose Only And Use This Script Wisely
+And This Is Not A Ilegal Application!''')# The Auto Type Message
+print("")
+print("This Legal Application Register By:Redavknerd In 7 September 2020")
+print("Command Prompt And Python Version 3.8.5")
+print("")
+print("Last Updated This App In 4 December 2020")
+print("----------------------------------------")
 import os,sys,time,requests,re,json,random
 from random import randrange as rg
-print ("\033[00m")
-def clear():
-    os.system("clear")
+
 def balik():
-    f=input("\t[enter to back]")
     if f == "":
        os.system("python spam.py")
     else:
        sys.exit()
 def baner():
     print ('''
-\tALL SPAM OTP
-\t------------
-\nCreator:Fahmiapz 
-Youtube: Knifer12
-Github : github.com/BladeKnife
-==========================================''')
+\t Phone S And E Sms/Call
+\t========================
+
+    Msg Phone Life Time:Loop UN Er
+      Phone Call Life Time:3X/6H
+    ==============================''')
 def kata(s):
     for c in s + "\n":
         sys.stdout.write(c)
@@ -242,13 +253,12 @@ def wa2():
     r=requests.post("https://qtva.id/page/frames.php?f=eVBDUVU0NE1DTStQTmgvallDaTA0QT09&p=RUtYZFBydUdXTmVWMUtnc3M1ZmtnVFpMSXRxTWlvQUduaTR6VFZzRk00UT0=&hc=bmFSencyM2FmUWxmckV4Y0pXdEVOQ1pYZW5pY0pXSlBENHZSaCtJNmtTSnR0SHJWeEJaOUhWZHVSUHpRcXhWTg==", data=dat, headers=ua).text
 if __name__=="__main__":
      try:
-          clear()
           baner()
           hh="+62"
-          no=input("[+]Phone Number: ")
+          no=input("    [+]Phone Number: ")
           c=no[1:12]
           w=hh+c 
-          kata("Waiting....!!")
+          kata("           Please Wait...!")
           jenius()
           oyo()
           mapclub()
@@ -274,7 +284,7 @@ if __name__=="__main__":
      except KeyboardInterrupt:
              sys.exit()
      except requests.exceptions.ConnectionError:
-             sys.exit('connection error!')
+             sys.exit('Connection Error!')
      except TypeError:
              balik()
      except ValueError:
