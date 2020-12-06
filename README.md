@@ -1,2 +1,2 @@
-# S Enginering Message
-The Social Enginering Python Message
+# S Engineering Message
+The Social Engineering Python Message
