@@ -1,3 +1,6 @@
+def clear():
+    os.system("clear")
+
 import os,sys,time
 def kata(s):
     for c in s + '\n':
