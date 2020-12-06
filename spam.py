@@ -6,50 +6,6 @@ def kata(s):
     for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
-        time.sleep(1./99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999)# The Speed Of The Text
-kata('''<!DOCTYPE html>
-<html>
-    <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" /><meta name="robots" content="index, follow" />
-	<meta charset="UTF-8">
-	
-	<meta name="description" content="Select the device you would like to protect from viruses and malware and choose from a variety of free Kaspersky security tools. Stay protected and download your free malware protection tools today."/>
-	
-	
-	
-	
-		
-<!-- responsive styles -->
-		<!--link href="/resources/css/responsive/site-responsive.css" rel="stylesheet"-->
-<!-- //responsive styles -->
-            
-		
-		
-	<link rel='stylesheet' type='text/css' href='/resources/css/fonts.css'>
-<link rel='stylesheet' type='text/css' href='/resources/css/nxgen-main.css'>
-<!--[if lt IE 9]>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">&nbsp;</script>
-<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js">&nbsp;</script>
-<![endif]-->
-	<!--Page ID: {tcm:203-462319-64} -->
-<title>
-	Download Free Kaspersky Virus Protection Tools | Kaspersky Lab
-</title><script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=mtShC-GRthn8fnvxDPGTGKrvxz5hJZkk9Cd_tejdPi42sQfRyZHR73SL6WrCgI1V" charset="UTF-8"></script></head>
-    
-	
-	<body>
-		
-		
-	
-	
-        <!-- content block -->''')# The Auto Type Message
-    
-print("")
-print("")
-print("")
-def kata(s):
-    for c in s + '\n':
-        sys.stdout.write(c)
-        sys.stdout.flush()
         time.sleep(1./20)# The Speed Of The Text
 kata('''Warning!, This Is For Education Purpose Only And Use This Script Wisely
 And This Is Not A Ilegal Application!''')# The Auto Type Message
